@@ -1,0 +1,38 @@
+header {
+  text-align: center;
+  margin: 5rem auto 3rem;
+  width: 32rem;
+
+  @include sm {
+    margin: 5.25rem auto 3.95rem;
+    width: 18.5rem;
+  }
+
+
+
+  h1 {
+    font-size: 2.2rem;
+    font-weight: 200;
+    color: $VeryDarkBlue;
+    letter-spacing: 0.6px;
+    margin-bottom: 1.125rem;
+    line-height: 1.45;
+
+    @include sm {
+      font-size: 1.5rem;
+      line-height: 1.54;
+      letter-spacing: 0;
+      margin-bottom: 0;
+
+
+    }
+    div {
+      font-weight: 600;
+    }
+  }
+
+  p {
+    color: $GrayishBlue;
+    line-height: 1.63;
+  }
+}
